@@ -16,13 +16,5 @@ function functionPassword() {
 /** oculta el password de acuerdo al tiempo establecido */
     setTimeout(() => {
         inputPassword.type = 'password'
-    }, 100);
-    
+    }, 100)   
 }
-
-
-
-
-
-
-
