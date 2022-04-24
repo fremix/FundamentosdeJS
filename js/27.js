@@ -1,4 +1,4 @@
-/** Generando codigo HTML con JS  */
+/** Generando codigo HTML con JS  - Generacion de alertas */
 
 const formulario = document.querySelector('#formulario');
 formulario.addEventListener('submit', e => {
@@ -11,10 +11,10 @@ formulario.addEventListener('submit', e => {
     if(alertaPrevia){ 
         alertaPrevia.remove();
     }
-    
+
     const alerta = document.createElement('DIV')    
     alerta.classList.add('alerta')
-
+/** Validacion de campos */
     if(nombre === '' || password === '') {
         alerta.textContent = 'Todos los campos son obligatorios'
         alerta.classList.add('error')
