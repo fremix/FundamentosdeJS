@@ -7,7 +7,7 @@ const consultarAPI = () => {
     .then( respuesta  => respuesta.json())
     //console.log(respuesta);
      
-    .then( ( resultado ) => {
+    .then( ( resultado ) => { // .then significa que se estan usando promises
         //1.- console.log('Resultado casi listo...');
         //2.- console.log(resultado);
         resultado.forEach( comentario => { // Para recorrer la API se hace con un forEach y arrow function
